@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-image: linear-gradient(rgb(239, 231, 15), rgb(241, 234, 234));
+    }
+
+    #box {
+      height: 300px;
+      width: 300px;
+      background-color: rgba(255, 255, 255, 0.5);
+      backdrop-filter: blur(50px);
+      border: 2px solid #333;
+      border-radius: 50px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      /* Center the buttons vertically */
+      align-items: center;
+      /* Center the buttons horizontally */
+    }
+
+    .button {
+      text-align: center;
+      height: 60px;
+      width: 150px;
+      border-radius: 50px;
+      margin: 10px 0;
+    }
+
+    .space {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      /* Center the buttons horizontally */
+    }
+
+    .name {
+      text-decoration: none;
+      font-size: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box">
+    <div class="space">
+      <button class="button">
+        <a href="./csk folder/player1.html" class="name">PLAYER NAME</a>
+      </button>
+
+      <button class="button">
+        <a href="./csk folder/about.html" class="name">
+          <P>ABOUT THE TEAM</P>
+        </a>
+      </button>
+    </div>
+  </div>
+
+</body>
+
+</html>

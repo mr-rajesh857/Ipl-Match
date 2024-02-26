@@ -1,0 +1,117 @@
+body {
+    height: 150vh;
+    width: 100%;
+    background-image: url(background3.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+#box {
+
+    max-width: 100px;
+    max-width: 200VH;
+    border: 0px;
+    border-radius: 35px;
+    margin-top: 120px;
+    box-shadow: 50px;
+    background: rgb(240, 242, 231,0);
+    backdrop-filter: blur(50px);
+    color:#fff;
+    box-shadow: 40px;
+    background-image: url(background2.avif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:  rgba(244, 241, 241, 0.882);
+    
+}
+
+.team {
+    height: 80px;
+    width: 200px;
+    background-color: azure;
+    padding: 3px;
+    row-gap: 30px;
+    border-radius: 50px;
+    border: 0px;
+  
+    align-items: center;
+    
+    text-align: center;
+    /* height: 60px;
+    width: 150px; */
+   
+    margin: 10px 0;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    margin-top: 10px;
+    flex-shrink: 3;
+    column-gap: 20px;
+    cursor: pointer;
+    transition: color 0.3s, text-shadow 1.0s ;
+}
+
+
+@media (max-width: 768px) {
+ 
+    #box {
+        flex-direction: row; 
+        justify-content: center; 
+    }
+
+    .team {
+        margin: 10px 20px; 
+    }
+}
+
+.content {
+    margin:10px;
+    padding: 20px;
+    background-color: rgba(232, 224, 224, 0.5); 
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .scrolling-paragraph {
+    white-space: nowrap;
+    overflow: hidden;
+    animation: scroll 50s linear infinite;
+  }
+  h1{
+    font: size 50px;;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+  .teamname{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+   font-size: 1rem;
+ 
+  }
+  .teamname:hover {
+    color: rgb(255, 0, 0);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .teamname:hover.blue {
+    color: rgb(0, 0, 255); 
+    text-shadow: -2px -2px 4px rgba(0, 0, 0, 0.5); 
+  }
+
+
+
+
+
